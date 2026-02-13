@@ -1,0 +1,319 @@
+version: 1
+project:
+  title: Code in Context, Computing & the Liberal Arts
+  authors:
+    - name: >-
+        <a href="https://americanstudies.nd.edu/faculty/katherine-walden/">Dr.
+        Katherine Walden</a>
+  copyright: '2024'
+  exclude:
+    - _build
+    - Thumbs.db
+    - .DS_Store
+    - '**.ipynb_checkpoints'
+    - '**/in-progress'
+    - '**/other_files'
+    - features
+    - scraps
+    - '**/AppData/Local/Microsoft/Windows/INetCache/**'
+    - '**/INetCache/Low/Content.IE5/**'
+  github: kwaldenphd/code-in-context
+  toc:
+    - file: intro.md
+    - file: how-to.md
+      title: How to Interact With This Book
+    - file: 00-background/00-overview.md
+      title: Course Overview
+      children:
+        - file: 00-background/01-background.md
+          title: Background
+        - file: 00-background/02-schedule.md
+          title: Schedule
+        - file: 00-background/03-assessments.md
+          title: Assignments & Assessments
+        - file: 00-background/04-grading.md
+          title: How Grading Works in This Course
+        - file: 00-background/05-preparation.md
+          title: Preparing for Class
+    - file: 01-binary-encoding/00-intro.md
+      title: 1. Binary Number Systems & Encoding Schema
+      children:
+        - file: 01-binary-encoding/01-digital-objects.md
+          title: Physical, Logical & Conceptual Objects
+        - file: 01-binary-encoding/02-binary-number-systems.md
+          title: Binary Number Systems
+        - file: 01-binary-encoding/03-encoding-schema.md
+          title: Encoding Schema
+        - file: 01-binary-encoding/04-representing-other-info.md
+          title: Representing Other Information
+        - file: 01-binary-encoding/05-file-formats.md
+          title: File Formats
+        - file: 01-binary-encoding/06-application.md
+          title: Application Questions
+        - file: 01-binary-encoding/07-activities.md
+          title: Collaborative Activities
+    - file: 02-computer-architecture/00-intro.md
+      title: 2. Computer Hardware & Architecture
+      children:
+        - file: 02-computer-architecture/01-von-neumann.md
+          title: Von Neumann Architecture
+        - file: 02-computer-architecture/02-alu-memory.md
+          title: ALU & Memory
+        - file: 02-computer-architecture/03-cpu-fetch-execute.md
+          title: CPU & the Fetch-Execute Cycle
+        - file: 02-computer-architecture/04-assembly-language.md
+          title: Assembly Language
+        - file: 02-computer-architecture/05-putting-it-all-together.md
+          title: Putting It All Together
+        - file: 02-computer-architecture/06-application.md
+          title: Application Questions
+        - file: 02-computer-architecture/07-scenarios.md
+          title: Scenarios
+          children:
+            - file: 02-computer-architecture/08-alu-memory-scenario.md
+              title: 'Scenario #1: ALU & Memory'
+            - file: 02-computer-architecture/09-alu-memory-scenario.md
+              title: 'Scenario #2: ALU & Memory'
+            - file: 02-computer-architecture/10-fetch-execute-scenario.md
+              title: >-
+                Scenario #3: Assembly Language, the CPU & the Fetch-Execute
+                Cycle
+    - file: 03-systems-interfaces/00-intro.md
+      title: 3. Operating Systems & Interfaces
+      children:
+        - file: 03-systems-interfaces/01-operating-systems.md
+          title: Operating Systems
+        - file: 03-systems-interfaces/02-cli-overview.md
+          title: Introduction to the Command Line Interface
+          children:
+            - file: 03-systems-interfaces/03-cli-intro.md
+              title: Getting Started at the Command Line
+            - file: 03-systems-interfaces/04-shell-tutorial.md
+              title: 'Tutorial: Opening Your Shell'
+            - file: 03-systems-interfaces/05-wayfinding-tutorial.md
+              title: 'Tutorial: Terminal Wayfinding'
+            - file: 03-systems-interfaces/06-terminal-commands-tutorial.md
+              title: 'Tutorial: Working in Your Terminal'
+            - file: 03-systems-interfaces/07-cli-application.md
+              title: Command Line Application Questions
+        - file: 03-systems-interfaces/08-application.md
+          title: Application Questions
+        - file: 03-systems-interfaces/09-activities.md
+          title: Collaborative Activities
+    - file: 04-computer-networks/00-intro.md
+      title: 4. Computer Networks & the Internet
+      children:
+        - file: 04-computer-networks/01-computer-networks.md
+          title: Computer Networks
+        - file: 04-computer-networks/02-internet.md
+          title: The Internet
+          children:
+            - file: 04-computer-networks/03-additional-resources.md
+              title: Additional Resources
+        - file: 04-computer-networks/04-application-questions.md
+          title: Application Questions
+        - file: 04-computer-networks/05-activities.md
+          title: Collaborative Activities
+          children:
+            - file: 04-computer-networks/06-packet-switching.md
+              title: Packet Switching Network Relay
+            - file: 04-computer-networks/07-dns-roleplay.md
+              title: I Think Therefore ICANN (A Roleplaying Game About Domain Names)
+    - file: 05-world-wide-web/00-intro.md
+      title: 5. The World Wide Web
+      children:
+        - file: 05-world-wide-web/01-world-wide-web.md
+          title: What is the World Wide Web?
+        - file: 05-world-wide-web/02-tutorial.md
+          title: HTML & CSS Tutorials
+          children:
+            - file: 05-world-wide-web/03-first-page.md
+              title: Your first webpage!
+            - file: 05-world-wide-web/04-adding-content.md
+              title: Adding Content
+            - file: 05-world-wide-web/05-adding-pages.md
+              title: Adding Pages
+            - file: 05-world-wide-web/06-linking-pages.md
+              title: Linking Pages
+            - file: 05-world-wide-web/07-images.md
+              title: Images
+            - file: 05-world-wide-web/08-style-formatting.md
+              title: Style & Formatting
+            - file: 05-world-wide-web/09-css.md
+              title: Cascading Style Sheets
+        - file: 05-world-wide-web/10-application.md
+          title: Application Questions
+        - file: 05-world-wide-web/11-additional-resources.md
+          title: Additional Resources
+        - file: 05-world-wide-web/12-activities.md
+          title: Collaborative Activities
+          children:
+            - file: 05-world-wide-web/13-web-search.md
+              title: Web Search Activities
+            - file: 05-world-wide-web/14-hypertext.md
+              title: Hypertext Activities
+    - file: 06-python-fundamentals/00-intro.md
+      title: 6. Programming Fundamentals in Python
+      children:
+        - file: 06-python-fundamentals/01-spyder.md
+          title: Python in Spyder
+        - file: 06-python-fundamentals/02-jupyter-notebooks.md
+          title: Python in Jupyter Notebooks
+        - file: 06-python-fundamentals/03-ides.md
+          title: Making IDE Choices
+        - file: 06-python-fundamentals/04-your-first-program.ipynb
+          title: Your First Program!
+          children:
+            - file: 06-python-fundamentals/05-variables-assignment.ipynb
+              title: Variables & Assignment
+            - file: 06-python-fundamentals/06-arithmetic-operators.ipynb
+              title: Arithmetic Operators
+            - file: 06-python-fundamentals/07-concatenation.ipynb
+              title: Concatenation
+            - file: 06-python-fundamentals/08-input-output.ipynb
+              title: Input/Output
+            - file: 06-python-fundamentals/09-converting-data-types.ipynb
+              title: Converting Data Types
+        - file: 06-python-fundamentals/10-comparison-operators.ipynb
+          title: Comparison Operators
+          children:
+            - file: 06-python-fundamentals/11-advanced-comparison.ipynb
+              title: More Advanced Comparisons
+        - file: 06-python-fundamentals/12-application.md
+          title: Application Questions
+        - file: 06-python-fundamentals/13-activities.md
+          title: Collaborative Activities
+          children:
+            - file: 06-python-fundamentals/14-python-activities.ipynb
+              title: Python Activities
+            - file: 06-python-fundamentals/15-microbit-activities.md
+              title: Microbit Activities
+    - file: 07-data-structures/00-intro.md
+      title: 7. Data Structures in Python
+      children:
+        - file: 07-data-structures/01-indexing.ipynb
+          title: Indexing
+        - file: 07-data-structures/02-strings.ipynb
+          title: Strings
+        - file: 07-data-structures/03-lists.ipynb
+          title: Lists
+          children:
+            - file: 07-data-structures/04-other-linear-arrays.ipynb
+              title: Other Linear Arrays
+        - file: 07-data-structures/05-dictionaries.ipynb
+          title: Dictionaries
+        - file: 07-data-structures/06-putting-it-all-together.md
+          title: Putting It All Together
+        - file: 07-data-structures/07-application.md
+          title: Application Questions
+        - file: 07-data-structures/08-activities.md
+          title: Collaborative Activities
+          children:
+            - file: 07-data-structures/09-python-activities.ipynb
+              title: Python Activities
+            - file: 07-data-structures/10-microbit-activities.md
+              title: Microbit Activities
+    - file: 08-control-structures/00-intro.md
+      title: 8. Control Structures in Python
+      children:
+        - file: 08-control-structures/01-conditional-execution.ipynb
+          title: Conditional Execution
+        - file: 08-control-structures/02-iteration-loops.ipynb
+          title: Iteration & Loops
+          children:
+            - file: 08-control-structures/03-while-loops.ipynb
+              title: While Loops
+            - file: 08-control-structures/04-for-loops.ipynb
+              title: For Loops
+            - file: 08-control-structures/05-additional-considerations.ipynb
+              title: Additional Loop Considerations
+        - file: 08-control-structures/06-putting-it-all-together.md
+          title: Putting It All Together
+        - file: 08-control-structures/07-application.md
+          title: Application Questions
+        - file: 08-control-structures/08-activities.md
+          title: Collaborative Activities
+          children:
+            - file: 08-control-structures/09-python-activities.ipynb
+              title: Python Activities
+            - file: 08-control-structures/10-microbit-activities.md
+              title: Microbit Activities
+    - file: 09-reuse-modularity/00-intro.md
+      title: 9. Code Reuse & Modularity
+      children:
+        - file: 09-reuse-modularity/01-python-functions.md
+          title: Functions in Python
+          children:
+            - file: 09-reuse-modularity/02-built-in-functions.md
+              title: Built-In Functions
+            - file: 09-reuse-modularity/03-named-functions.md
+              title: Named Functions
+              children:
+                - file: 09-reuse-modularity/04-how-named-functions-work.md
+                  title: How Named Functions Work
+                - file: 09-reuse-modularity/05-python-example.ipynb
+                  title: Python Example A
+                - file: 09-reuse-modularity/06-python_example.ipynb
+                  title: Python Example B
+                - file: 09-reuse-modularity/07-python_example.ipynb
+                  title: Python Example C
+            - file: 09-reuse-modularity/08-parameters-scoping.ipynb
+              title: Parameters & Scoping
+            - file: 09-reuse-modularity/09-functions-application.md
+              title: Function Application
+            - file: 09-reuse-modularity/10-putting-it-all-together.md
+              title: Putting It All Together
+            - file: 09-reuse-modularity/11-reuse-modularity.md
+              title: Code Reuse & Modularity
+        - file: 09-reuse-modularity/12-application.md
+          title: Application Questions
+    - file: 10-structured-data/00-intro.md
+      title: 10. Structured Data in Python
+      children:
+        - file: 10-structured-data/01-file-io.md
+          title: File I/O
+          children:
+            - file: 10-structured-data/02-open.md
+              title: Opening Files
+            - file: 10-structured-data/03-access-modes.md
+              title: Access Modes
+            - file: 10-structured-data/04-python-examples.ipynb
+              title: Python Examples
+            - file: 10-structured-data/05-write.ipynb
+              title: Writing Data to a File
+        - file: 10-structured-data/06-structured-data.md
+          title: Structured Data
+          children:
+            - file: 10-structured-data/07-delimited-data.md
+              title: Delimited Data
+            - file: 10-structured-data/08-csv-files.md
+              title: CSV Files
+            - file: 10-structured-data/09-json.md
+              title: JavaScript Object Notation
+        - file: 10-structured-data/10-pandas.md
+          title: Enter Pandas
+          children:
+            - file: 10-structured-data/11-data-structures.md
+              title: Pandas Data Structures
+              children:
+                - file: 10-structured-data/12-series.ipynb
+                  title: Series
+                - file: 10-structured-data/13-data-frame.ipynb
+                  title: Data Frame
+            - file: 10-structured-data/14-file-to-df.ipynb
+              title: From Data File to DataFrame
+            - file: 10-structured-data/15-interacting.ipynb
+              title: Interacting With a Data Frame
+            - file: 10-structured-data/16-writing-output.ipynb
+              title: From Data Frame to Data File
+            - file: 10-structured-data/17-pandas-application.md
+              title: Pandas Application Questions
+        - file: 10-structured-data/18-application-questions.md
+          title: Application Questions
+site:
+  options:
+    logo: favicon.png
+    favicon: favicon.png
+    analytics_google: G-VWMRSQ9VGT
+    folders: true
+  template: book-theme
